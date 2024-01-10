@@ -5,8 +5,42 @@
 }
 
 body{
-  background-color: beige;
+
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  padding: 40px;
   
+
+}
+.boys{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+
+  gap: 20px;
+  text-align: center;
+ 
+}
+.girls{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.boy ,
+.girl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 65px;
+  
+  
+
+  background-color:rgb(127, 199, 217);
+  border-radius: 10px;
+
 }
